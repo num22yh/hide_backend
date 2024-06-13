@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kramptest.KramptestApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-13T01:37:10" hostname="YOOMS-DESKTOP" time="0.35">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.kramptest.KramptestApplicationTests" time="0.35"/>
+  <system-out><![CDATA[10:37:07.332 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.kramptest.KramptestApplicationTests]: KramptestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:37:07.404 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.kramptest.KramptestApplication for test class com.kramptest.KramptestApplicationTests
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.0)
+
+2024-06-13T10:37:07.739+09:00  INFO 19648 --- [kramptest] [    Test worker] c.kramptest.KramptestApplicationTests    : Starting KramptestApplicationTests using Java 17.0.11 with PID 19648 (started by user in C:\Users\user\Desktop\hide_test)
+2024-06-13T10:37:07.741+09:00  INFO 19648 --- [kramptest] [    Test worker] c.kramptest.KramptestApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-06-13T10:37:08.223+09:00  INFO 19648 --- [kramptest] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-13T10:37:08.265+09:00  INFO 19648 --- [kramptest] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interface.
+2024-06-13T10:37:08.606+09:00  INFO 19648 --- [kramptest] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-13T10:37:08.653+09:00  INFO 19648 --- [kramptest] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-06-13T10:37:08.893+09:00  INFO 19648 --- [kramptest] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-13T10:37:09.121+09:00  INFO 19648 --- [kramptest] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1bec1589
+2024-06-13T10:37:09.122+09:00  INFO 19648 --- [kramptest] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-13T10:37:09.157+09:00  INFO 19648 --- [kramptest] [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-06-13T10:37:09.659+09:00  INFO 19648 --- [kramptest] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-13T10:37:09.667+09:00  INFO 19648 --- [kramptest] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-13T10:37:09.941+09:00  WARN 19648 --- [kramptest] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-13T10:37:10.228+09:00  INFO 19648 --- [kramptest] [    Test worker] c.kramptest.KramptestApplicationTests    : Started KramptestApplicationTests in 2.665 seconds (process running for 3.574)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
