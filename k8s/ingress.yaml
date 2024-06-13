@@ -14,5 +14,5 @@ spec:
           - path: /
             pathType: Prefix
             backend:
-              serviceName: krampoline
+              serviceName: springboot-backend
               servicePort: 8080

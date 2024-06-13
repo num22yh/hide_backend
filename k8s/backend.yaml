@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: krampoline
+  name: springboot-backend
 spec:
   selector:
     matchLabels:
-      app: krampoline
+      app: springboot-backend
   replicas: 1
   template:
     metadata:
       labels:
-        app: krampoline
+        app: springboot-backend
     spec:
       containers:
-      - name: krampoline
-        image: krmp-d2hub-idock.9rum.cc/dev-test/repo_70d8bdbd6b5e
+      - name: springboot-backend
+        image: krmp-d2hub-idock.9rum.cc/dev-test/repo_1d79d055bfce
         env:
           - name: DB_URL
             valueFrom:
@@ -38,4 +38,3 @@ spec:
                 key: db_driver
         ports:
         - containerPort: 8080
-       
