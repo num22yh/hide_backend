@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: krmp-d2hub-idock.9rum.cc/dev-test/repo_afcdbe63672b
+        image: krmp-d2hub-idock.9rum.cc/dev-test/repo_20f6bfee88c2
         env:
         - name: MYSQL_ROOT_PASSWORD
           valueFrom:
