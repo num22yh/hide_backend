@@ -4,7 +4,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the JAR file to the working directory
-COPY build/libs/kramptest-0.0.1-SNAPSHOT.jar /app.jar
+COPY build/libs/kramptest-0.0.1-SNAPSHOT.jar app.jar
 
 # Run the application
 ENTRYPOINT ["java", "-jar", "app.jar"]
